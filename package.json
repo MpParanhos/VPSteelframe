@@ -1,0 +1,28 @@
+{
+  "name": "vpsteelframe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.9.1",
+    "@react-md/expansion-panel": "^5.1.3",
+    "@react-md/icon": "^5.1.3",
+    "@react-md/list": "^5.1.3",
+    "@react-md/theme": "^5.1.3",
+    "@react-md/typography": "^5.1.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.22",
+    "@types/react-dom": "^18.0.7",
+    "@vitejs/plugin-react": "^2.2.0",
+    "vite": "^3.2.0"
+  }
+}

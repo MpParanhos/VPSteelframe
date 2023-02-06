@@ -1,0 +1,49 @@
+.banner-container{
+  margin-bottom: 0px;
+}
+
+.banner{
+  width: 100%;
+
+}
+
+.nav{
+  display: flex;
+  width: 100vw;
+  margin-top: 0px;
+  justify-content: center;
+}
+
+.nav a{
+  text-decoration: none;
+}
+
+.nav button{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22vw;
+  background-color: #eee;
+  border: 1px solid #ccc;
+  height: 40px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.firstb{
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.lastb{
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.nav button:hover{
+  background-color: #ccc;
+  border: 1px solid white;
+  font-weight: bold;
+  font-size: 15px;
+}

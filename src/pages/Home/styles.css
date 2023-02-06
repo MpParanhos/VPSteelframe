@@ -1,0 +1,55 @@
+#content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content1{
+  cursor: default;
+  display: flex;
+  width: 500px;
+  text-align: justify;
+  align-items: center;
+  margin: 20px 20px;
+}
+
+.contact-area{
+  display: flex;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background-color: #444;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.contact-area a{
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact-area i{
+  margin-right: 5px;
+}
+
+.contact-area a:hover{
+  color: greenyellow;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.contact{
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.more{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 20px;
+}
