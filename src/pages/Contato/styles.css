@@ -1,0 +1,137 @@
+#container{
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+}
+
+.contact-area2{
+  display: flex;
+  width: 300px;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #444;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.wpp{
+  text-align: center;
+  font-size: 25px;
+}
+
+.contact-area2 a{
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.contact-area2 i{
+  margin-right: 5px;
+}
+
+
+.contact-area2 a:hover{
+  color: greenyellow;
+  font-weight: bold;
+}
+
+.contact2{
+  list-style-type: none;
+}
+
+.gname{
+  grid-area: gname;
+}
+.gnamei{
+  grid-area: gnamei;
+}
+.gtel{
+  grid-area: gtel;
+}
+.gteli{
+  grid-area: gteli;
+}
+.gmail{
+  grid-area: gmail;
+}
+.gmaili{
+  grid-area: gmaili;
+}
+.gass{
+  grid-area: gass;
+}
+.gassi{
+  grid-area: gassi;
+}
+.gmen{
+  grid-area: gmen;
+}
+.gmeni{
+  grid-area: gmeni;
+}
+.gsend{
+  grid-area: gsend;
+}
+
+.formulario{
+  display: grid;
+  grid-template-columns: 35vw 5vw 35vw;
+  grid-template-areas: 
+    "gname . gtel"
+    "gnamei . gteli"
+    "gmail . gass"
+    "gmaili . gassi"
+    "gmen . ."
+    "gmeni gmeni gmeni"
+    ". . gsend";
+}
+
+.formulario input{
+    height: 30px;
+    margin: 5px 0px 10px 0px;
+}
+
+.formulario input[type=text], input[type=email]{
+  padding-left: 10px;
+}
+
+.formulario textarea{
+  padding: 5px;
+}
+
+.formulario input[type=submit]{
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  width: 20vw;
+}
+
+.formTitle{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+fieldset{
+  border-radius: 10px;
+  max-width: 50vw;
+  border-color: black;
+  padding: 10px;
+  align-items: center;
+}
+
+table{
+  display: block;
+  align-items: center;
+   
+}
+

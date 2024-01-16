@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title{
+  text-align: center;
+  margin: 30px 0px;
+  cursor: default;
+}
+
+.rmd-card button{
+  background-color: #eee;
+  color: #444;
+  font-weight: bold;
+}
+
+.rmd-card:hover button{
+  background-color: #ccc;
+}
+
+.rmd-card__content{
+  cursor: default;
+  background-color: white;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width: 17px;
+}
+
+::-webkit-scrollbar-track{
+  background:#ddd;
+}
+
+::-webkit-scrollbar-thumb{
+  background-color: #999;
+  border-radius: 20px;
+  border: 3px solid #ddd;
+}
+
+::-webkit-scrollbar-thumb:hover{
+  background-color: #333;
+  border-radius: 20px;
+  border: 3px solid #ddd;
+}
+
